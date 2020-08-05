@@ -7,14 +7,14 @@
           <p>Full titanium. Durable. Maintenable.</p>
         </div>
         <div class="hero_image">
-          <img src="/hero-main.png" alt="">
+          <img src="/hero-main.png" alt="Hero DJI">
         </div>
         <div class="hero_target">
           <span class="hero-target__price">&#36; 170.00</span>
           <hero-btn>PRE-ORDER NOW</hero-btn>
-          <div class="hero-target__img">
+          <!-- <div class="hero-target__img">
             <img src="/hero-logo.png" alt="">
-          </div>
+          </div> -->
         </div>
     </div>
   </section>
@@ -35,6 +35,7 @@ export default {
 .hero {
   background-color: #2f2f2f;
   text-align: center;
+  color: #FFFFFF;
 }
 
 .hero_text h1 {
@@ -44,7 +45,7 @@ export default {
 }
 
 .hero_text p {
-  font-family: 'Medium';
+  font-family: 'Roboto Medium';
   padding: 20px;
   font-size: 27px;
 }
@@ -55,7 +56,7 @@ export default {
 }
 
 .hero_image {
-  padding: 30px 0 60px;
+  padding: 30px 15px 60px;
   display: flex;
   justify-content: center;
 }
@@ -79,5 +80,18 @@ export default {
   left: 75%;
 }
 
-
+@media (min-width: 320px) and (max-width: 576px) {
+  .hero_text h1 {
+    font-size: 50px;
+  }
+  .hero_text p {
+    font-size: 25px;
+  }
+  .hero_text__mark {
+    font-size: 15px;
+  }
+  .hero-target__price {
+    padding-bottom: 20px;
+  }
+}
 </style>

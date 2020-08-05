@@ -8,6 +8,7 @@
 .header-btn {
   font-family: 'Roboto Regular';
   font-size: 20px;
+  color: #FFFFFF;
   background-color: #0b77fa;
   height: 47px;
   width: 190px;
@@ -17,4 +18,11 @@
   border: none;
   text-transform: uppercase;
 }
+
+.header-btn:hover,
+.header-btn:focus {
+  box-shadow: inset 0 0 0 2em #a1a3a7;
+  transition: 0.5s;
+}
+
 </style>
