@@ -4,14 +4,14 @@
       <div class="schema_content">
         <schema-img>
           <h3>Mounting holes</h3>
-          <img src="/schema1.png" alt="">
+          <img src="/schema1.png" alt="Mounting holes">
         </schema-img>
         <schema-img class="schema_image">
-          <img src="/schema2.png" alt="intro">
+          <img src="/schema2.png" alt="DJi 20mm acum">
         </schema-img>
         <schema-img>
           <h3>DJI FPV system placing</h3>
-          <img src="/schema3.png" alt="">
+          <img src="/schema3.png" alt="DJI system placing">
         </schema-img>
       </div>
     </div>
@@ -39,15 +39,5 @@ export default {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-}
-
-.schema_properties {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: flex-end;
-  padding-bottom: 20px;
-  text-align: center;
 }
 </style>

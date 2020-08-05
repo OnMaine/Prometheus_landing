@@ -4,6 +4,7 @@
     <Intro />
     <Specifications />
     <Schema />
+    <Camera />
   </div>
 </template>
 
@@ -12,13 +13,15 @@ import Hero from '@/components/Hero'
 import Intro from '@/components/Intro'
 import Specifications from '@/components/Specifications'
 import Schema from '@/components/Schema'
+import Camera from '@/components/Camera'
 
 export default {
   components: {
     Hero,
     Intro,
     Specifications,
-    Schema
+    Schema,
+    Camera
   }
 };
 </script>
