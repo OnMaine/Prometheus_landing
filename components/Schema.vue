@@ -1,54 +1,44 @@
 <template>
   <section class="schema">
     <div class="container_wrapp">
-      <div class="schema_image">
-        <img src="/schema.png" alt="intro">
-      </div>
-      <div class="schema_properties">
-        <schema-prop>
-          <h3>230mm</h3>
-          <p>wheelbase</p>
-        </schema-prop>
-        <schema-prop>
-          <h3>5”</h3>
-          <p>prop size</p>
-        </schema-prop>
-        <schema-prop>
-          <h3>190g</h3>
-          <p>weight</p>
-        </schema-prop>
-        <schema-prop>
-          <img src="/Titanium.png" alt="schema titanium element">
-          <p>titanium full body</p>
-        </schema-prop>
-        <schema-prop>
-          <h3>Compressed X</h3>
-          <p>frame shape</p>
-        </schema-prop>
-        <schema-prop>
-          <h3>Freestyle</h3>
-          <p>frame type</p>
-        </schema-prop>
+      <div class="schema_content">
+        <schema-img>
+          <h3>Mounting holes</h3>
+          <img src="/schema1.png" alt="">
+        </schema-img>
+        <schema-img class="schema_image">
+          <img src="/schema2.png" alt="intro">
+        </schema-img>
+        <schema-img>
+          <h3>DJI FPV system placing</h3>
+          <img src="/schema3.png" alt="">
+        </schema-img>
       </div>
     </div>
   </section>
 </template>
 
 <script>
-import SchemaProp from '~/components/SchemaProp';
+import SchemaImg from '~/components/SchemaImg';
 
 export default {
   components: {
-    SchemaProp
+    SchemaImg
   }
 };
 </script>
 
-
 <style>
 .schema {
-  background-color: #2f2f2f;
-  color: #FFFFFF;
+  background-color: #d0d0d0;
+  color: #000000;
+}
+
+.schema_content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .schema_properties {
@@ -59,11 +49,5 @@ export default {
   align-items: flex-end;
   padding-bottom: 20px;
   text-align: center;
-}
-
-.schema_image {
-  padding: 58px 15px 20px;
-  display: flex;
-  justify-content: center;
 }
 </style>

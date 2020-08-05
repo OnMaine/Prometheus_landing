@@ -2,6 +2,7 @@
   <div>
     <Hero />
     <Intro />
+    <Specifications />
     <Schema />
   </div>
 </template>
@@ -9,12 +10,14 @@
 <script>
 import Hero from '@/components/Hero'
 import Intro from '@/components/Intro'
+import Specifications from '@/components/Specifications'
 import Schema from '@/components/Schema'
 
 export default {
   components: {
     Hero,
     Intro,
+    Specifications,
     Schema
   }
 };
