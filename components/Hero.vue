@@ -1,21 +1,21 @@
 <template>
   <section class="hero">
     <div class="container_wrapp">
-        <div class="hero_text">
-          <h1>Prometheus</h1>
-          <span class="hero_text__mark">FPV freestyle frame</span>
-          <p>Full titanium. Durable. Maintenable.</p>
-        </div>
-        <div class="hero_image">
-          <img src="/hero-main.png" alt="Hero DJI">
-        </div>
-        <div class="hero_target">
-          <span class="hero-target__price">&#36; 170.00</span>
-          <hero-btn>PRE-ORDER NOW</hero-btn>
-          <!-- <div class="hero-target__img">
-            <img src="/hero-logo.png" alt="">
-          </div> -->
-        </div>
+      <div class="hero_text">
+        <h1>Prometheus</h1>
+        <span class="hero_text__mark">FPV freestyle frame</span>
+        <p>Full titanium. Durable. Maintenable.</p>
+      </div>
+      <div class="hero_image">
+        <img src="/hero-main.png" alt="Hero DJI">
+      </div>
+      <div class="hero_target">
+        <span class="hero-target__price">&#36; 170.00</span>
+        <hero-btn>PRE-ORDER NOW</hero-btn>
+        <!-- <div class="hero-target__img">
+          <img src="/hero-logo.png" alt="">
+        </div> -->
+      </div>
     </div>
   </section>
 </template>
@@ -39,7 +39,8 @@ export default {
 }
 
 .hero_text h1 {
-  padding: 55px 0 25px;
+  /* padding-top:55px; */
+  padding: 25px 0 25px;
   font-family: 'Roboto Black';
   font-size: 80px;
 }
@@ -56,7 +57,7 @@ export default {
 }
 
 .hero_image {
-  padding: 30px 15px 60px;
+  padding: 30px 15px 45px;
   display: flex;
   justify-content: center;
 }
