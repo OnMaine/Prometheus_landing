@@ -1,0 +1,14 @@
+{
+  "name": "o2-drones",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt serve",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.14.1"
+  }
+}
