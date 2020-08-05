@@ -1,6 +1,8 @@
 {
   "name": "o2-drones",
   "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "OnMaine <Onmaine@gmail.com>",
   "private": true,
   "scripts": {
     "dev": "nuxt",
