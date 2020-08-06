@@ -10,8 +10,12 @@
         <img src="/hero-main.png" alt="Hero DJI">
       </div>
       <div class="hero_target">
-        <span class="hero-target__price">&#36; 170.00</span>
-        <hero-btn>PRE-ORDER NOW</hero-btn>
+        <div class="hero_target__space">
+        </div>
+        <div class="hero_target__kenu">
+          <span class="hero-target__price">&#36; 170.00</span>
+          <hero-btn>PRE-ORDER NOW</hero-btn>
+        </div>
         <div class="hero-target__img">
           <img src="/hero-logo.png" alt="">
         </div>
@@ -65,11 +69,15 @@ export default {
   justify-content: center;
 }
 
-.hero_target {
+.hero_target,
+.hero_target__kenu {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   align-items: flex-end;
+}
+
+.hero_target {
   padding-bottom: 40px;
 }
 
@@ -79,16 +87,9 @@ export default {
   font-size: 40px;
   margin-right: 18px;
 }
-/* переделать! */
-.hero-target__img {
-  position: absolute;
-  left: 75%;
-}
 
-@media (min-width: 320px) and (max-width: 1200px) {
-  .hero-target__img {
-    display: none;
-  }
+.hero_target__space {
+  width: 71px;
 }
 
 @media (min-width: 320px) and (max-width: 576px) {
@@ -101,8 +102,8 @@ export default {
   .hero_text__mark {
     font-size: 15px;
   }
-  .hero-target__price {
-    padding-bottom: 20px;
+  .hero-target__img {
+    padding-top: 25px;
   }
 }
 </style>
