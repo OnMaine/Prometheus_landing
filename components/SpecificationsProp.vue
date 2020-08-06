@@ -6,12 +6,14 @@
 
 <style>
 .Specifications_prop h3 {
-  font-family: 'Roboto Bold';
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
   font-size: 27px;
 }
 
 .Specifications_prop p {
-  font-family: 'Roboto Light';
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   font-size: 14px;
   padding-top: 8px;
 }

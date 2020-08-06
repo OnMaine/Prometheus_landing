@@ -22,7 +22,6 @@ export default {
 };
 </script>
 
-
 <style>
 .intro {
   background-color: #FFFFFF;
@@ -35,13 +34,15 @@ export default {
 
 .intro_text h2 {
   padding: 50px 0 50px;
-  font-family: 'Roboto Bold';
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
   font-size: 54px;
   text-align: center;
 }
 
 .intro_text p {
-  font-family: 'Roboto Light';
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   padding-bottom: 60px;
   font-size: 19px;
 }
@@ -55,6 +56,13 @@ export default {
 @media (min-width: 320px) and (max-width: 576px) {
   .intro_text {
     padding: 0 20px 0;
+  }
+  .intro_text h2 {
+    font-size: 42px;
+  }
+
+  .intro_text p {
+    font-size: 15px;
   }
 }
 </style>

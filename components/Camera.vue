@@ -31,6 +31,14 @@ export default {
   color: #FFFFFF;
 }
 
+.camera_image h4 {
+  padding-top: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 23px;
+  text-align: center;
+}
+
 .camera_content {
   display: flex;
   flex-wrap: wrap;

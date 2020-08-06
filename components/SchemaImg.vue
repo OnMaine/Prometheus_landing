@@ -14,7 +14,8 @@
 
 .schema_image h3 {
   padding: 50px 0 40px;
-  font-family: 'Roboto Medium';
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
   font-size: 23px;
   text-align: center;
 }

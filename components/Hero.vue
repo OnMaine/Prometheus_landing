@@ -12,9 +12,9 @@
       <div class="hero_target">
         <span class="hero-target__price">&#36; 170.00</span>
         <hero-btn>PRE-ORDER NOW</hero-btn>
-        <!-- <div class="hero-target__img">
+        <div class="hero-target__img">
           <img src="/hero-logo.png" alt="">
-        </div> -->
+        </div>
       </div>
     </div>
   </section>
@@ -40,19 +40,22 @@ export default {
 
 .hero_text h1 {
   /* padding-top:55px; */
-  padding: 25px 0 25px;
-  font-family: 'Roboto Black';
+  padding-bottom: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
   font-size: 80px;
 }
 
 .hero_text p {
-  font-family: 'Roboto Medium';
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
   padding: 20px;
   font-size: 27px;
 }
 
 .hero_text__mark {
-  font-family: 'Roboto Thin';
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
   font-size: 20px;
 }
 
@@ -71,7 +74,8 @@ export default {
 }
 
 .hero-target__price {
-  font-family: 'Roboto Black';
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
   font-size: 40px;
   margin-right: 18px;
 }
@@ -81,9 +85,15 @@ export default {
   left: 75%;
 }
 
+@media (min-width: 320px) and (max-width: 1200px) {
+  .hero-target__img {
+    display: none;
+  }
+}
+
 @media (min-width: 320px) and (max-width: 576px) {
   .hero_text h1 {
-    font-size: 50px;
+    font-size: 45px;
   }
   .hero_text p {
     font-size: 25px;
